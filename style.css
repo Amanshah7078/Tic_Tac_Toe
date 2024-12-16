@@ -1,0 +1,36 @@
+
+body{
+    background-color: bisque;
+}
+.coln{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(199, 38, 199);
+ font-style: oblique;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+box-shadow: 20px 40px 20px grey ;
+border-radius: 60px;
+padding: 20px;
+margin: 12px;
+background-color: rgba(24, 231, 72, 0.685);
+
+
+}
+.coln:hover{
+    background-color: rgba(199, 38, 185, 0.779);
+    transition: 0.5s;
+    box-shadow: 12px 12px 12px;
+}
+.row{
+    display: flex;
+    background-color: rgba(0, 255, 234, 0.877);
+    
+
+    justify-content: center;
+}
